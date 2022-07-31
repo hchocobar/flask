@@ -1,0 +1,32 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-primary {
+    color: #fff;
+    background-color: #1e73be;
+    border-color: #1e73be;
+}
+
+.btn-primary:hover {
+    color: #ffc107;
+    background-color: #1e73be;
+    border-color: #1e73be;
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  background: #f9fafb;
+  color: #f8f9fa;
+}
+
+
+.cover-container {
+  background: #1e73be;
+}

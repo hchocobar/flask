@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>{% block title %} Blog {% endblock %}</h1>
+    {% for post in posts %}
+        <a class="link-secondary" href="{{ url_for('post', post_id=post['id']) }}">
+            <h2 class="lead">{{ post['title'] }}</h2>
+        </a>
+        <span class="badge bg-secondary">{{ post['created'] }}</span>
+        <div class="col-10 text-truncate">
+            <span>{{ post['content'] }}</span>
+        </div>
+        <hr>
+    {% endfor %}
+{% endblock %}
