@@ -12,14 +12,21 @@
 <body class="d-flex h-100">
   <div class="cover-container d-flex w-100 h-100  mt-4 mb-4 flex-column">
     <header class="mb-auto p-3">
-      <div>
-        <h2 class="float-md-start">Python y Flask</h2>
-        <nav class="navbar justify-content-center float-md-end">
-          <a class="nav nav-link text-light" aria-current="page" href="/">Home</a>
-          <a class="nav nav-link text-light" href="/about">About</a>
-          <a class="nav nav-link text-light" href="{{url_for('blog')}}">Blog</a>
-        </nav>
-      </div>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-transparent justify-content-center">  <!-- justify-content-center float-md-end -->
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Python y Flask</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item"><a class="nav nav-link text-light" aria-current="page" href="/">Home</a></li>
+              <li class="nav-item"><a class="nav nav-link text-light" href="/about">About</a></li>
+              <li class="nav-item"><a class="nav nav-link text-light" href="{{url_for('blog')}}">Blog</a></li>
+            </ul>
+          </div>  <!-- collapse -->
+        </div>  <!-- container-fluid -->
+      </nav>
     </header>
 
     <main class="py-5 px-5 bg-light text-dark">
@@ -32,5 +39,7 @@
         <a class="link-warning" href="https://chocobar.net" target="_blank">Héctor Chocobar Torrejón</a></p>
     </footer>
   </div>
+  <!--    BOOTSTRAP core JavaScript utilizando CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
