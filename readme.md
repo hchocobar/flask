@@ -60,7 +60,18 @@ Los archivos .css debemos localizarlos en el directorio `/static/css`
 Los archivos de base de datos SQLite debemos colocarlos en el directorio `/src`
 
 ## Enlaces
+
+[Bootstrap](https://getbootstrap.com/docs/) |
+
 [Python](https://python.org) | 
+[Jinja](http://jinja.palletsprojects.com/) |
 [Flask](https://flask.palletsprojects.com/) | 
-[Bootstrap](https://getbootstrap.com/docs/) | 
 [SQLite](https://www.sqlite.org/)
+
+# Muchas Gracias
+
+[Héctor Chocobar Torrejón](http://chocobar.net)
+
+
+![Avatar de Héctor](https://en.gravatar.com/userimage/146115819/41a333edd75fea5257a0a684c76cf977.png)
+
